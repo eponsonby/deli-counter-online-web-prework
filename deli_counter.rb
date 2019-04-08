@@ -1,7 +1,10 @@
 require 'pry'
 
+# refactor with no arguments!
+# the number ticket wheel just gives numbers, not names 
+# the current line starts at [341, 342]
+
 katz_deli = []
-other_deli = ["Logan", "Avi", "Spencer"]
 
 def line(deli)
   line_number = 1
@@ -37,12 +40,6 @@ def now_serving(deli)
   end
 end
 
-def my_method
-  "corn"
-  puts "beans"
-  return "avocado"
-  puts "love guacomole"
-end 
   
 binding.pry  
   
