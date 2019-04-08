@@ -36,6 +36,10 @@ def now_serving(deli)
     puts "Currently serving #{served_person}."
   end
 end
+
+def my_method
+  "beans"
+end 
   
 binding.pry  
   
