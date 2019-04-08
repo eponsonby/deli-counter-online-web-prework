@@ -3,10 +3,11 @@ require 'pry'
 # refactor with no arguments!
 # the number ticket wheel just gives numbers, not names 
 # the current line starts at [341, 342]
+# the next ticket number is 343
 
 katz_deli = []
 
-def line(deli)
+def line
   line_number = 1
   line_array = ["The line is currently:"]
   final_array = []
@@ -21,7 +22,7 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, name)
+def take_a_number
   if deli.length == 0
     deli.push(name)
     puts "Welcome, #{name}. You are number 1 in line."
@@ -31,7 +32,7 @@ def take_a_number(deli, name)
   end
 end
 
-def now_serving(deli)
+def now_serving
   if deli.length == 0
     puts "There is nobody waiting to be served!"
   elsif deli.length > 0
