@@ -37,7 +37,7 @@ def now_serving(deli)
   end
 end
   
-    
+binding.pry  
   
 #   katz_deli = []
 # other_deli = ["Logan", "Avi", "Spencer"]
