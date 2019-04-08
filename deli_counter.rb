@@ -5,16 +5,16 @@ require 'pry'
 # the current line starts at [341, 342]
 # the next ticket number is 343
 
-katz_deli = []
+$katz_deli = []
 
 def line
   line_number = 1
   line_array = ["The line is currently:"]
   final_array = []
-  if katz_deli.length < 1
+  if $katz_deli.length < 1
     puts "The line is currently empty."
-  elsif katz_deli.length >= 1
-    katz_deli.each do |name|
+  elsif $katz_deli.length >= 1
+    $katz_deli.each do |name|
     final_array = line_array.push(" #{line_number}. #{name}")
     line_number += 1
   end
