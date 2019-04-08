@@ -5,7 +5,7 @@ require 'pry'
 # the current line starts at [341, 342]
 # the next ticket number is 343
 
-$katz_deli = []
+$katz_deli = [341, 342]
 
 def line
   line_number = 1
