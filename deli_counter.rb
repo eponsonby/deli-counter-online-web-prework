@@ -39,7 +39,7 @@ end
 
 def my_method
   "corn"
-  "beans"
+  puts "beans"
 end 
   
 binding.pry  
