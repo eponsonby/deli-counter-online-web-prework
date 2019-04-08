@@ -11,10 +11,10 @@ def line
   line_number = 1
   line_array = ["The line is currently:"]
   final_array = []
-  if deli.length < 1
+  if katz_deli.length < 1
     puts "The line is currently empty."
-  elsif deli.length >= 1
-    deli.each do |name|
+  elsif katz_deli.length >= 1
+    katz_deli.each do |name|
     final_array = line_array.push(" #{line_number}. #{name}")
     line_number += 1
   end
