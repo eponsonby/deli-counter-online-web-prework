@@ -1,3 +1,5 @@
+require 'pry'
+
 katz_deli = []
 other_deli = ["Logan", "Avi", "Spencer"]
 
