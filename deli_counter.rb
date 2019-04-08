@@ -38,6 +38,7 @@ def now_serving(deli)
 end
 
 def my_method
+  "corn"
   "beans"
 end 
   
