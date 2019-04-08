@@ -6,6 +6,7 @@ require 'pry'
 # the next ticket number is 343
 
 $katz_deli = [341, 342]
+$current_number = 343
 
 def line
   line_number = 1
@@ -23,13 +24,9 @@ def line
 end
 
 def take_a_number
-  if deli.length == 0
-    deli.push(name)
-    puts "Welcome, #{name}. You are number 1 in line."
-  elsif deli.length > 0
-    new_line = deli.push(name)
-      puts "Welcome, #{name}. You are number #{new_line.length} in line."
-  end
+    new_line = $katz_deli.push($current_number)
+      puts "Welcome, #{$current_number}. You are number #{new_line.length} in line."
+      $current_number += 1
 end
 
 def now_serving
