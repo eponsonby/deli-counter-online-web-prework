@@ -40,6 +40,8 @@ end
 def my_method
   "corn"
   puts "beans"
+  return "avocado"
+  puts "love guacomole"
 end 
   
 binding.pry  
